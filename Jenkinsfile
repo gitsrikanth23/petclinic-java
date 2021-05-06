@@ -1,6 +1,6 @@
 node {
  
-   stage('SCM') {
+   stage('git') {
       // git clone
       git 'https://github.com/GitPracticeRepo/spring-petclinic.git'
    }
